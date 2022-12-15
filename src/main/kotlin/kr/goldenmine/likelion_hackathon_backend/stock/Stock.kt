@@ -17,7 +17,7 @@ class Stock(
         var currentMinute = stockInfo.startMinute
 
         while(currentHour < endHour) {
-            val updateRate = 1 + (if(random.nextFloat() <= stockInfo.increaseRate)
+            val updateRate = 1 + (if(random.nextFloat() <= stockInfo.globalIncreaseRate)
                 random(stockInfo.globalMinIncreaseRate, stockInfo.globalMaxIncreaseRate)
             else
                 -random(stockInfo.globalMinDecreaseRate, stockInfo.globalMaxDecreaseRate)) / 100.0
