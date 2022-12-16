@@ -13,15 +13,15 @@ class Fibonacci {
 결과적으로 20시엔 5% 주식 상승이 있음
  */
 fun main() {
-    var a = 0
-    var b = 1
-    var c = 1
+    var a = 0L
+    var b = 1L
+    var c = 1L
 
     println("0: $a")
     println("1: $b")
     println("2: $c")
 
-    for(i in 0..40) {
+    for(i in 0..50 - 3) {
         a = b
         b = c
         c = a + b
