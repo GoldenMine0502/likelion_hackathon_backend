@@ -6,8 +6,6 @@ import com.opencsv.CSVWriter
 import kr.goldenmine.likelion_hackathon_backend.stock.Stock
 import kr.goldenmine.likelion_hackathon_backend.stock.StockInfo
 import java.io.File
-import java.io.StringWriter
-
 
 fun main(args: Array<String>) {
     val gson = Gson()
