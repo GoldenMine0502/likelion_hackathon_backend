@@ -46,7 +46,6 @@ class Stock(
             currentHour += stockInfo.updateHour
             currentMinute += stockInfo.updateMinute
 
-
             while(currentMinute >= 60) {
                 currentMinute -= 60
                 currentHour++
